@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-class expression {
+class Areaoftria {
     public static void main(String[] var0) {
     //    Scanner var4 = new Scanner(System.in);
     //    System.out.println("Enter the Base and hight");

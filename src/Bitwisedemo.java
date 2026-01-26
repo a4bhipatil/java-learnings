@@ -1,3 +1,4 @@
+import java.lang.*;
 public class Bitwisedemo {
     public static void main(String[] args){
         int x=0b1010;//binary form of 10
@@ -10,5 +11,8 @@ public class Bitwisedemo {
         int f=x<<1;
         int g=x>>>1;
         System.out.println(a+" "+b+" "+c+" "+d+" "+e+" "+f+" "+g);
+        // binary form of x and y
+        System.out.printf("%s%n",Integer.toBinaryString(x));
+        System.out.printf("%s%n",Integer.toBinaryString(y));
     }
 }

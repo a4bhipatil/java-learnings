@@ -1,6 +1,6 @@
 import java.lang.*;
 import java.util.*;
-public class conditionstatementproblems {
+public class Conditionstatementproblems {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
        //find largest in 3 numbers

@@ -1,4 +1,32 @@
-package PACKAGE_NAME;
-
 public class Loops {
+    public static void main(String[] args){
+        //while loop
+//        int i=1,n=100;
+//        while(i<n){
+//            System.out.println(i);
+//            i=i*2;
+//        }
+
+        //do while loop
+//        int i=1,n=100;
+//        do{
+//            System.out.println(i);
+//            i=i*2;
+//        }while(i<n);
+
+        //infinit loop
+//        int i=1;
+//        while(true){
+//            System.out.println(i);
+//            i++;
+//        }
+        //print 1 to 10 by for loop
+        for(int i=1; i<=10; i++){
+            System.out.println(i);
+        }
+//        for(int i=10; i>0; i--){
+//            System.out.println(i);
+//        }
+
+    }
 }

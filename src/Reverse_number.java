@@ -6,7 +6,7 @@ public class Reverse_number {
         System.out.println("Enter the number");
         int n=sc.nextInt();
         int revers=0;
-        while(n>r0){
+        while(n>0){
             int r=n%10;
             revers=revers*10+r;
             n=n/10;

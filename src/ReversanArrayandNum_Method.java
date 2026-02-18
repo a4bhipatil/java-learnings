@@ -13,8 +13,8 @@ public class ReversanArrayandNum_Method {
     }
     static int[] Revers(int A[]){
         int B[] =new int[A.length];
-        for(int i = 0; i<A.length; i++){
-            B[i]=A[A.length-1-i];
+        for(int i=A.length-1,j=0; i>=0; i--,j++){
+            B[j]=A[i];
         }
         return B;
     }

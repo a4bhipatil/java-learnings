@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
-
+class Outer3{
+    int x=10;
+    static int y=20;
+    static class Inner2{
+        public void show(){
+            System.out.println(y);
+        }
+    }
+}
 public class StaticInnerClass {
+    public static void main(String[] args){
+        Outer3.Inner2 m=new Outer3.Inner2();
+        m.show();
+    }
 }

@@ -9,7 +9,7 @@ public class Palindrome_String {
             rev=rev+A.charAt(i);
         }
         if(A.equals(rev))
-            System.out.println("it is a palindrome");
+            System.out.println("it ais a palindrome");
         else
             System.out.println("it is not palindrome");
     }

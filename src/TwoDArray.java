@@ -1,4 +1,4 @@
-public class TwoDArray {
+    public class TwoDArray {
     public static void main(String[] args){
         int A[][]=new int[3][4];
         A= new int[][]{{3, 9, 7, 8}, {12, 6, 15, 5}, {4, 10, 5, 6}};

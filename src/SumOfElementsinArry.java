@@ -7,9 +7,9 @@ public class SumOfElementsinArry {
         }
         System.out.print(sum);
 
-        for(int x:A){
-            sum=sum+x;
-        }
-        System.out.print(sum);
+//        for(int x:A){
+//            sum=sum+x;
+//        }
+//        System.out.print(sum);
     }
 }
